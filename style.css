@@ -1,0 +1,13 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ header {
+    background-color: rgba(59, 20, 59, 0.733);
+    padding: 2em;
+ }
+
+ header img {
+    width: 140px;
+ }
