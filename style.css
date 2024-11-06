@@ -1,13 +1,42 @@
  * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
  }
 
  header {
-    background-color: rgba(59, 20, 59, 0.733);
-    padding: 2em;
+    background-color: gray;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
  }
 
- header img {
-    width: 140px;
+ header ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
  }
+
+ header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+ }
+
+ header button {
+    margin-left: 20px;
+    border-radius: 4px;
+    background-color: white; /* TROCAR DEPOIS */
+    width: 120px;
+    height: 28px;
+    font-size: 15px;
+    border-color: gray;
+    font-weight: 500;
+ }
+
+
+
