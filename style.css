@@ -70,7 +70,7 @@
    /*----------------------------------------------------------------------------------------------------*/
 
  .section1 {
-    padding: 15rem;
+    padding: rem;
     background-color: white;
    
  }
@@ -82,28 +82,30 @@
 
  .div-container1 {
     display: flex;
-    background-image: url(img/modelo\ de\ imagem.png);
+    background-image: url(img/);
     background-size: cover;
-    padding: 10rem;
+    padding:10vh 10rem;
     justify-content: space-around;
     align-items: center;
+    background-color: blue;
 
  }
+ .div-container2 {
+    display: flex;
+    background-image: url(img/);
+    padding:10vh 10rem;
+    justify-content: space-around;
+    background-size: cover;
+    align-items: center;
+    background-color: #ED3238;
 
+ }
+ 
  .div-container1 h2 {
    font-size: 2em;
    color:black ;
  }
    /*--------------------------------------------------------------------------------------------------*/
- .div-container2 {
-    display: flex;
-    background-image: url(img/modelo\ de\ imagem.png);
-    padding: 10rem;
-    justify-content: space-around;
-    background-size: cover;
-    align-items: center;
-
- }
 
  .section2 {
     padding: 10rem;

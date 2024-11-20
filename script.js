@@ -4,7 +4,7 @@
 
 const track = document.getElementById('carrosselImagens');
 
-const items = document.querySelectorAll('.section1');
+const items = document.querySelectorAll('.div-container1');
 let index = 0;
 
 /* Função que vai passar as próximas imagens */
