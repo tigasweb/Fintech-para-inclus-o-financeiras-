@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 
     position: sticky;
@@ -30,31 +30,17 @@ header {
 
 }
 
-header ul {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
 header ul li a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
 }
 
-header button {
-    margin-left: 20px;
-    border-radius: 4px;
-    background-color: rgb(77, 76, 165);
-    width: 170px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: 500;
-    border-color: black;
-    color: white;
+i {
+    font-size: 13px;
+    margin-right: 2px;
 }
+
 
 header img {
     width: 4rem;
@@ -63,21 +49,19 @@ header img {
 
 header a:hover {
     color: #ED3238;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 /*-----------------------------------------------------------------------*/
+.sectionform {
+    padding: 100px;
+}
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-}
-
-.header .img {
-    width: 50px;
-    margin-bottom: 20px;
 }
 
 .content {
@@ -90,7 +74,7 @@ header a:hover {
 }
 
 .login-form h2 {
-    font-size: 16px;
+    font-size: 19px;
     color: gray;
     margin: 0 10px;
     display: inline-block;
@@ -98,14 +82,13 @@ header a:hover {
 }
 
 .login-form p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 20px 0;
 }
 
 .radio-group {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .radio-group label {
@@ -114,7 +97,7 @@ header a:hover {
 }
 
 .radio-group input {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .input-field {
@@ -165,12 +148,9 @@ header a:hover {
 }
 
 
-
-
-
-
-
 /*------------------------------------------------------------------------*/
+
+
 footer {
     background-color: rgb(196, 191, 191);
     color: black;
