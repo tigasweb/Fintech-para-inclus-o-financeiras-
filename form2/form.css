@@ -1,3 +1,4 @@
+/* Reset de estilos básicos */
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +6,12 @@
     list-style: none;
 }
 
-
 html {
     width: 100%;
     height: 100vh;
-
 }
 
+/* Estilo do cabeçalho */
 header {
     background-color: white;
     padding: 1rem;
@@ -52,7 +52,7 @@ header a:hover {
     transition: 0.5s;
 }
 
-/*-----------------------------------------------------------------------*/
+/* Formulário de login */
 .sectionform {
     padding: 100px;
 }
@@ -147,10 +147,7 @@ header a:hover {
     text-decoration: underline;
 }
 
-
-/*------------------------------------------------------------------------*/
-
-
+/* Estilo do rodapé */
 footer {
     background-color: rgb(196, 191, 191);
     color: black;
@@ -160,7 +157,7 @@ footer {
 
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: column;
     justify-content: space-around;
     text-align: left;
 }
@@ -197,4 +194,100 @@ footer {
     padding-top: 10px;
     margin-top: 10px;
     text-align: center;
+}
+
+/* Media Queries para responsividade */
+
+/* Para telas de dispositivos móveis e pequenas */
+@media screen and (max-width: 768px) {
+    /* Ajustando o cabeçalho */
+    header {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    header img {
+        width: 3rem;
+    }
+
+    header ul {
+        margin-top: 10px;
+    }
+
+    header ul li a {
+        font-size: 14px;
+    }
+
+    /* Ajustando o formulário */
+    .sectionform {
+        padding: 50px 20px;
+    }
+
+    .content {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .input-field {
+        padding: 8px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    /* Rodapé */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Para tablets (telas entre 768px e 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .content {
+        width: 60%;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        flex: 1 1 45%;
+    }
+}
+
+/* Para telas grandes (desktops) */
+@media screen and (min-width: 1025px) {
+    .container {
+        padding: 50px;
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: ce;
+    }
+
+    .footer-section {
+        flex: 1 1 30%;
+    }
 }
