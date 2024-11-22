@@ -70,32 +70,47 @@
    /*----------------------------------------------------------------------------------------------------*/
 
  .section1 {
-    padding: rem;
+    padding: 2rem;
     background-color: white;
+    
    
  }
 
  .container-sec1 {
     display: flex;
     gap: 1.5rem;
- }
+    
+   }
+   .div-blur {
+      background-color: rgba(250, 235, 215, 0.616);
+      border-radius: 10px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   
+   .div-container1 {
+      background-image: url(img/phoneincard.webp);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      padding:10%;
+      justify-content: space-around;
+      align-items: center;
+      margin-right: 0px;  
 
- .div-container1 {
-    display: flex;
-    background-image: url(img/);
-    background-size: cover;
-    padding:10vh 10rem;
-    justify-content: space-around;
-    align-items: center;
-    background-color: blue;
 
  }
  .div-container2 {
+   background-image: url(img/smartphone\ qrcod.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
     display: flex;
-    background-image: url(img/);
     padding:10vh 10rem;
     justify-content: space-around;
-    background-size: cover;
     align-items: center;
     background-color: #ED3238;
 
