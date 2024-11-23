@@ -80,6 +80,7 @@
     display: flex;
     gap: 1.5rem;
     
+    
    }
    .div-blur {
       background-color: rgba(250, 235, 215, 0.616);
@@ -89,22 +90,37 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
    }
    
    .div-container1 {
-      background-image: url(img/phoneincard.webp);
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      padding:10%;
-      justify-content: space-around;
-      align-items: center;
-      margin-right: 0px;  
+      background-image: url(img/moçaasiatica.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    display: flex;
+    padding:25vh 30rem;
+    justify-content: space-around;
+    align-items: center;
+   
+    
 
 
  }
  .div-container2 {
-   background-image: url(img/smartphone\ qrcod.jpg);
+   background-image: url(img/trabalho-mulher-1024x542.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    display: flex;
+    padding:25vh 15rem;
+    justify-content: space-around;
+    align-items: center;
+   
+
+ }
+ .div-container3 {
+   background-image: url(img/moçanegrasorrindo.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -112,9 +128,9 @@
     padding:10vh 10rem;
     justify-content: space-around;
     align-items: center;
-    background-color: #ED3238;
-
  }
+
+ 
  
  .div-container1 h2 {
    font-size: 2em;
@@ -124,27 +140,14 @@
 
  .section2 {
     padding: 10rem;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     background-position: center;
 
-
  }
 
- .container-sec2 {
-
- }
-
- .box-sec1 {
-    display: flex;
- }
-
- .box-sec2 {
-    display: flex;
- }
-
- .box-se3 {
-    display: flex;
+  {
+   
  }
 
  .section3 {
