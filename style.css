@@ -1,170 +1,211 @@
- * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
- }
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   list-style: none;
+}
 
 
- html {
-    width: 100%;
-    height: 100vh;
+html {
+   width: 100%;
+   height: 100vh;
 
- }
+}
 
- header {
-    background-color: white;
-    padding: 1rem;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
-
-
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    box-shadow: 0 0.21rem 0.5rem rgb(77, 76, 165);
-
- }
-
-
-
-
- header ul {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    gap: 20px;
- }
-
- header ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
- }
-
- header button {
-    margin-left: 20px;
-    border-radius: 4px;
-    background-color: rgb(77, 76, 165);
-    width: 170px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: 500;
-    border-color: black;
-    color: white;
- }
- header img {
-   width: 4rem;
-   height: auto;
- }
-
- header a:hover {
-    color: #ED3238;
-   transition: 0.8s;
- }
-   /*----------------------------------------------------------------------------------------------------*/
-
- .section1 {
-    padding: 2rem;
-    background-color: white;
-    
-   
- }
-
- .container-sec1 {
-    display: flex;
-    gap: 1.5rem;
-    
-    
-   }
-   .div-blur {
-      background-color: rgba(250, 235, 215, 0.616);
-      border-radius: 10px;
-      padding: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-   }
-   
-   .div-container1 {
-      background-image: url(img/moçaasiatica.jpg);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-    display: flex;
-    padding:25vh 30rem;
-    justify-content: space-around;
-    align-items: center;
-   
-    
-
-
- }
- .div-container2 {
-   background-image: url(img/trabalho-mulher-1024x542.png);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-    display: flex;
-    padding:25vh 15rem;
-    justify-content: space-around;
-    align-items: center;
-   
-
- }
- .div-container3 {
-   background-image: url(img/moçanegrasorrindo.jpg);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-    display: flex;
-    padding:10vh 10rem;
-    justify-content: space-around;
-    align-items: center;
- }
-
- 
- 
- .div-container1 h2 {
-   font-size: 2em;
-   color:black ;
- }
-   /*--------------------------------------------------------------------------------------------------*/
-
- .section2 {
-    padding: 10rem;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    background-position: center;
-
- }
-
- .box-sec1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
- }
-
- .section3 {
-   padding: 10vh;
-   background-color: blue;
-   justify-content: space-between;
-   align-items: center;
- }
- .container-sec3 {
+header {
+   background-color: white;
+   padding: 1rem;
+   margin: 0;
    display: flex;
-   gap: 2rem;
+   align-items: center;
+   text-align: center;
+   justify-content: space-evenly;
 
- } 
+
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   box-shadow: 0 0.21rem 0.5rem rgb(77, 76, 165);
+
+}
+
+
+
+
+header ul {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+header ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+}
+
+header button {
+   margin-left: 20px;
+   border-radius: 4px;
+   background-color: rgb(77, 76, 165);
+   width: 170px;
+   height: 40px;
+   font-size: 15px;
+   font-weight: 500;
+   border-color: black;
+   color: white;
+}
+header img {
+  width: 4rem;
+  height: auto;
+}
+
+header a:hover {
+   color: #ED3238;
+  transition: 0.8s;
+}
+  /*----------------------------------------------------------------------------------------------------*/
+
+.section1 {
+   padding: 2rem;
+   background-color: white;
+   
+  
+}
+
+.container-sec1 {
+   display: flex;
+   gap: 1.5rem;
+   
+   
+  }
+  .div-blur {
+     background-color: rgba(250, 235, 215, 0.616);
+     border-radius: 10px;
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+  }
+  
+  .div-container1 {
+     background-image: url(img/moçaasiatica.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   display: flex;
+   padding:25vh 30rem;
+   justify-content: space-around;
+   align-items: center;
+  
+   
+
+
+}
+.div-container2 {
+  background-image: url(img/trabalho-mulher-1024x542.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   display: flex;
+   padding:25vh 15rem;
+   justify-content: space-around;
+   align-items: center;
+  
+
+}
+.div-container3 {
+  background-image: url(img/moçanegrasorrindo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   display: flex;
+   padding:10vh 10rem;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+
+.div-container1 h2 {
+  font-size: 2em;
+  color:black ;
+}
+  /*--------------------------------------------------------------------------------------------------*/
+
+.section2 {
+   padding: 10rem;
+   background-color: rgb(255, 255, 255);
+   align-items: center;
+   background-position: center;
+
+}
+
+.box-sec1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 60px;
+   
+}
+
+.section2 h3 {
+   font-size: 2em;
+}
+.section2 p {
+   font-size: 1.4em;
+   margin: 30px;
+   font-weight: 300;
+}
+.box-sec1 img {
+  width: 400px;
+}
+#maocartao {
+   width: 220px;
+}
+
+.section2 a {
+   color: rgb(0, 0, 0);
+   font-size: 0.8em;
+   margin: 30px;
+}
+/* ----------------------------------------------------------------------------------------- */
+
+.section3 {
+  padding: 10vh;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+}
+.container-sec3 {
+  display: flex;
+  gap: 2rem;
+
+} 
+
+.container-sec3 img {
+   width: 300px;
+   text-align: center;
+}
+.box {
+   text-align: center;
+   background-color: #d5d5d55d;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: #444 10px 10px 20px;
+}
+
+
+
+
+
+
 /*-----------------------------------------------------------------------------------------------*/
 
 
@@ -172,64 +213,64 @@
 
 
 
- footer {
-    background-color: white;
-    color: black;
-    padding: 20px 0;
-    text-align: center;
- }
+footer {
+   background-color: rgb(58, 92, 246);
+   color: black;
+   padding: 20px 0;
+   text-align: center;
+}
 
- .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: left;
- }
+.footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: left;
+}
 
- .footer-section {
-    flex: 1 1 200px;
-    margin: 10px;
- }
+.footer-section {
+   flex: 1 1 200px;
+   margin: 10px;
+}
 
- .footer-section h4 {
-    margin-bottom: 10px;
- }
+.footer-section h4 {
+   margin-bottom: 10px;
+}
 
- .footer-section ul {
-    list-style-type: none;
-    padding: 0;
- }
+.footer-section ul {
+   list-style-type: none;
+   padding: 0;
+}
 
- .footer-section ul li {
-    margin: 5px 0;
- }
+.footer-section ul li {
+   margin: 5px 0;
+}
 
- .footer-section ul li a {
-    color: black;
-    text-decoration: none;
- }
+.footer-section ul li a {
+   color: black;
+   text-decoration: none;
+}
 
- .footer-section ul li a:hover {
-    text-decoration: underline;
- }
+.footer-section ul li a:hover {
+   text-decoration: underline;
+}
 
- .footer-bottom {
-    border-top: 1px solid #444;
-    padding-top: 10px;
-    margin-top: 10px;
-    text-align: center;
- }
+.footer-bottom {
+   border-top: 1px solid #444;
+   padding-top: 10px;
+   margin-top: 10px;
+   text-align: center;
+}
 
- /* Responsividade */
- @media (max-width: 768px) {
+/* Responsividade */
+@media (max-width: 768px) {
 
-    .footer-container {
-       flex-direction: column;
-       align-items: center;
-      }
-      
-      .footer-section {
-         max-width: 300px;
-         text-align: center;
-      }
-   }
+   .footer-container {
+      flex-direction: column;
+      align-items: center;
+     }
+     
+     .footer-section {
+        max-width: 300px;
+        text-align: center;
+     }
+  }
