@@ -11,20 +11,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="carousel.css">
 </head>
 
 <body>
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+    
+
+
+
+
     <header>
         <div>
             <img src="img/dom bosco finance.png" alt="domboscoLOGO">
@@ -56,6 +52,40 @@
 
             </ul>
         </nav>
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <!-- Botão para ser utilizado para fechamento da lista -->
+            <button id="closeButton" class="close">
+                <i class="fas fa-times"></i>
+            </button>
+  
+            <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+            <ul class="nav-links-mobile">
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+            </ul>
+  
+  
+            <div id="btn-mobile" class="cad-mobile">
+              <button>
+                <a href="form.html" target="_blank">
+        
+                  <!-- <img src="img/user.png" alt=""> -->
+        
+                  <p>Cadastre-se</p>
+                </a>
+              </button>
+            </div>
+            <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
+        </div>
 
     </header>
 
@@ -234,6 +264,24 @@
         </div>
 
 
+
+
+
+
+
+
+
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
 
         <!-- lembra de adicionar sobre nós -->
     </footer>

@@ -422,3 +422,121 @@ footer {
        text-align: center; /* Centraliza o link */
    }
 }
+
+header {
+   display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
+   align-items: center; /*Alinhar os itens do nosso Header para o centro*/
+   justify-content: space-evenly; /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
+   padding: 2%;  /* Cuida do Preenchimento */
+   background-color: rgb(243, 243, 243); /* Cor de fundo do nosso Cabeçalho/Header */
+   overflow: hidden; /* */
+   
+}
+
+header > h1 {  /* Selecionamos aqui a cor da letra do nosso H1 ou seja, do nosso título */
+ color: white; /* chamamos a propriedade color e definimos uma cor em questão */ 
+ font-size: 45px; /*Tamanho da letra*/
+}
+
+
+header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alterações*/
+ width: 11rem;  /* Largura da nossa imagem */
+ height: auto; /* Tamanho da nossa imagem no tamanho automático*/
+}
+
+
+.item-menu-header { /* Nossas li que estão dentro do LIST MENU, onde se encontram os nomes dos itens apresentados no HEADER */
+ margin-right: 25px; /* margem da direita */
+}
+
+.item-menu-header > a:hover { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO, e o Hover responsável pela modificação de cor ao passar o cursor em cima.*/
+ color: yellow; /* Aqui atribuimos uma cor */
+ transition: 1s; /* E o tempo em que será exibido ao passar o cursor */
+}
+
+.item-menu-header > a { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO */
+ color: white; /* Cor das letras */
+ text-decoration: none; /* Responsável por tirar o sublinhado inferior que estava visível */
+ font-size: 0.8em; /* Tamanho da letra */
+} 
+
+
+.navbar {
+ color: white; /*Cor da letra*/
+ display: flex; /*Flexíveis*/
+ justify-content: space-between; /*A distribuição dos itens sejam com Space-between*/
+ align-items: center; /*Alinhamento da vertical*/
+ padding: 1rem 1.5rem; /*Preenchimento superior/inferior e esquerda/direita*/
+ height: 2.6rem; /*Altura do NavBar*/
+}
+
+.nav-links { /*Aqui estamos estilizando a UL (lista não ordenada)*/
+ list-style: none; /*Retirando o estilo de lista*/ 
+ display: flex; /*Tornando a caixa flexível, e lado a lado*/
+ margin: 0; /*Zerando os espaços de margem que são habilitados por padrão*/
+ padding: 0; /*Zerando os preenchimentos que são habilitados por padrão*/
+}
+
+
+.nav-links li { /*Estilizando nossa LI que está dentro da UL*/
+ padding: 0 8px; /*Preenchimento da LI superior/inferior 0 e laterais em 9px*/
+}
+
+.nav-links a,
+.nav-links-mobile a { /*Estamos chamando as duas âncoras para estilização, tanto da Versão Desktop quanto da versão Mobile.*/
+ color: white; /*A cor da letra*/
+ text-decoration: none; /*E sem sublinhado*/
+}
+
+
+
+.mobile-menu { /*Estilização da caixa Mobile quando aberta*/
+ display: none; /*Display: Nenhum*/
+ position: fixed; /*Posição fixa na parte direita da página*/
+ top: 0; /*Superior em 0 fazendo a caixa encostar ao topo*/
+ right: 0; /*Direita em 0 fazendo a caixa encostar a direita*/
+ width: 60%; /*Largura em porcentagem da caixa*/
+ height: 100%; /*Altura de 100% da tela*/
+ background-color: rgb(0, 0, 0); /*Cor de fundo*/
+ flex-direction: column; /*direção dos itens dentro da caixa */
+ align-items: center; /*Alinhamento na vertical do itens*/
+ font-size: 1.8rem; /*tamanho da letra dentro da caixa*/
+}
+
+.nav-links-mobile { /*Lista não ordenada da versão mobile*/
+ display: flex; /*Tornando os itens (LISTAS) flexíveis*/
+ flex-direction: column; /*Estamos direcionando o posicionamento dessas listas*/
+ text-align: end; /*Alinhando o texto ao centro*/
+ gap: 1.2rem; /*Espaço entre as listas */
+ /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
+ list-style: none; /*Estilo de lista desabilitado*/
+ /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
+}
+
+.nav-links-mobile li { /*listas da versão Mobile*/
+ border-bottom: 1px solid #787272; /*Bordar inferior de cada lista*/
+ padding-bottom: 1.2rem; /*Tamanho da borda*/
+}
+
+.hamburger,
+.close { /*Estilizando os botões de abertura e fechamento*/
+ font-size: 24px; /*Tamanho do elemento*/
+ background: none; /*Removido o Background*/
+ border: none; /*BORDA NENHUMAAAAAAA*/
+ color: white; /*cor do elemento*/
+ cursor: pointer; /*Cursor Habilitado*/
+ display: none; /*Escondendo os botões*/
+}
+
+
+.close {
+ margin-top: 20px;/*Espaçamento superior do X */
+ margin-right: 20px; /*Espaçamento a direita do X*/
+ display: block; /*Formatação da Imagem em bloco*/
+ align-self: end; /*Alinhamento do botão*/
+}
+
+
+.flex { /*ELEMENTO USADO NO JS*/
+ display: flex; /*Tornando item flexível e visível.*/
+}
