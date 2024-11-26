@@ -28,27 +28,27 @@
 // setInterval(animacaoCarrossel, 4000); 
 
 
-$(document).ready(function(){
+// $(document).ready(function(){
  
-    //Seleciona o contêiner .carousel e aplica a função slick()
-    //que ativa o carrossel com as configurações abaixo
-    $('.section1').slick({
+//     //Seleciona o contêiner .carousel e aplica a função slick()
+//     //que ativa o carrossel com as configurações abaixo
+//     $('.section3').slick({
 
-      //slidesToshow: número se cards exibidos ao mesmo tempo no carrosel
-      slidesToShow: 3, //Exibe 3 cards ao mesmo tempo
+//       //slidesToshow: número se cards exibidos ao mesmo tempo no carrosel
+//       slidesToShow: 3, //Exibe 3 cards ao mesmo tempo
 
-      //slidesToScroll: define quantos cards serão deslizados ao mover o carrossel
-      slidesToScroll: 1, //Move 1 card por vez ao deslizar
+//       //slidesToScroll: define quantos cards serão deslizados ao mover o carrossel
+//       slidesToScroll: 1, //Move 1 card por vez ao deslizar
 
-      //infinite: quando true, carrossel retorna ao inicio automaticamente
-      infinite: true, //Mantém o carrossel em rotação continua
+//       //infinite: quando true, carrossel retorna ao inicio automaticamente
+//       infinite: true, //Mantém o carrossel em rotação continua
 
-      //dost: quando true, ativa os pontos de navegação abaixo do carrosel
-      dots: true, //Adiciona pontos de navegação para os usuários
+//       //dost: quando true, ativa os pontos de navegação abaixo do carrosel
+//       dots: true, //Adiciona pontos de navegação para os usuários
 
-      //arrows: exibe setas de navegação nas laterais do carrosel.
-      arrows: true //Ativa as setas para navegar entre os cards
-    }) 
+//       //arrows: exibe setas de navegação nas laterais do carrosel.
+//       arrows: true //Ativa as setas para navegar entre os cards
+//     }) 
 
 
-})
+// })

@@ -70,9 +70,14 @@ header a:hover {
   /*----------------------------------------------------------------------------------------------------*/
 
 .section1 {
-   padding: 2rem;
+
    background-color: white;
-   
+   color: white;
+   background-image: url(img/moçaasiatica.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding:35vh 30rem;
   
 }
 
@@ -82,59 +87,37 @@ header a:hover {
    
    
   }
-  .div-blur {
-     background-color: rgba(250, 235, 215, 0.616);
-     border-radius: 10px;
-     padding: 30px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
 
-  }
   
   .div-container1 {
-     background-image: url(img/moçaasiatica.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
    display: flex;
-   padding:25vh 30rem;
    justify-content: space-around;
    align-items: center;
   
-   
-
-
 }
-.div-container2 {
-  background-image: url(img/trabalho-mulher-1024x542.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-   display: flex;
-   padding:25vh 15rem;
-   justify-content: space-around;
-   align-items: center;
-  
-
-}
-.div-container3 {
-  background-image: url(img/moçanegrasorrindo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-   display: flex;
-   padding:10vh 10rem;
-   justify-content: space-around;
-   align-items: center;
-}
-
 
 
 .div-container1 h2 {
   font-size: 2em;
-  color:black ;
+  color:rgb(255, 255, 255) ;
+  margin: 30px;
+}
+.div-container1 p {
+   font-size: 1.3em;
+}
+
+.section1 button {
+   background-color: white;
+   padding: 10px;
+   border-radius: 12px;
+   font-size: 1em;
+   margin-top: 20px;
+
+}
+.section1 button:hover {
+   transition: 0.8s;
+   background-color: rgb(33, 130, 241);
+   color: white;
 }
   /*--------------------------------------------------------------------------------------------------*/
 
@@ -152,8 +135,18 @@ header a:hover {
    align-items: center;
    gap: 50px;
    margin-bottom: 60px;
+   border-radius: 12px;
+   box-shadow: rgb(0, 0, 0) 12px 12px 25px;
    
 }
+.box-sec1 img{
+   margin-left: 20px;
+
+}
+.box-sec1 h3 {
+   margin-left: 20px;
+}
+
 
 .section2 h3 {
    font-size: 2em;
@@ -180,11 +173,12 @@ header a:hover {
 .section3 {
   padding: 10vh;
   background-color: rgb(255, 255, 255);
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .container-sec3 {
   display: flex;
+  transform: translateX(-50px);
   gap: 2rem;
 
 } 
