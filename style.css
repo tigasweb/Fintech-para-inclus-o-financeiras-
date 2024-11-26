@@ -5,11 +5,9 @@
    list-style: none;
 }
 
-
 html {
    width: 100%;
    height: 100vh;
-
 }
 
 header {
@@ -20,23 +18,16 @@ header {
    align-items: center;
    text-align: center;
    justify-content: space-evenly;
-
-
    position: sticky;
    top: 0;
    left: 0;
    z-index: 999;
    box-shadow: 0 0.21rem 0.5rem rgb(77, 76, 165);
-
 }
-
-
-
 
 header ul {
    display: flex;
    align-items: center;
-   text-align: center;
    justify-content: space-between;
    gap: 20px;
 }
@@ -58,50 +49,44 @@ header button {
    border-color: black;
    color: white;
 }
+
 header img {
-  width: 4rem;
-  height: auto;
+   width: 4rem;
+   height: auto;
 }
 
 header a:hover {
    color: #ED3238;
-  transition: 0.8s;
+   transition: 0.8s;
 }
-  /*----------------------------------------------------------------------------------------------------*/
 
 .section1 {
-
    background-color: white;
    color: white;
    background-image: url(img/moçaasiatica.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   padding:35vh 30rem;
-  
+   padding: 35vh 30rem;
 }
 
 .container-sec1 {
    display: flex;
    gap: 1.5rem;
-   
-   
-  }
+}
 
-  
-  .div-container1 {
+.div-container1 {
    display: flex;
    justify-content: space-around;
    align-items: center;
-  
 }
-
 
 .div-container1 h2 {
-  font-size: 2em;
-  color:rgb(255, 255, 255) ;
-  margin: 30px;
+   font-size: 2em;
+   color: rgb(255, 255, 255);
+   margin: 30px;
 }
+
 .div-container1 p {
    font-size: 1.3em;
 }
@@ -112,24 +97,22 @@ header a:hover {
    border-radius: 12px;
    font-size: 1em;
    margin-top: 20px;
-
 }
+
 .section1 button:hover {
    transition: 0.8s;
    background-color: rgb(33, 130, 241);
    color: white;
 }
-  /*--------------------------------------------------------------------------------------------------*/
 
 .section2 {
    padding: 10rem;
    background-color: rgb(255, 255, 255);
    align-items: center;
    background-position: center;
-
 }
 
-.box-sec1{
+.box-sec1 {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -137,28 +120,30 @@ header a:hover {
    margin-bottom: 60px;
    border-radius: 12px;
    box-shadow: rgb(0, 0, 0) 12px 12px 25px;
-   
 }
-.box-sec1 img{
-   margin-left: 20px;
 
+.box-sec1 img {
+   margin-left: 20px;
 }
+
 .box-sec1 h3 {
    margin-left: 20px;
 }
 
-
 .section2 h3 {
    font-size: 2em;
 }
+
 .section2 p {
    font-size: 1.4em;
    margin: 30px;
    font-weight: 300;
 }
+
 .box-sec1 img {
-  width: 400px;
+   width: 400px;
 }
+
 #maocartao {
    width: 220px;
 }
@@ -168,25 +153,25 @@ header a:hover {
    font-size: 0.8em;
    margin: 30px;
 }
-/* ----------------------------------------------------------------------------------------- */
 
 .section3 {
-  padding: 10vh;
-  background-color: rgb(255, 255, 255);
-  justify-content: center;
-  align-items: center;
+   padding: 10vh;
+   background-color: rgb(255, 255, 255);
+   justify-content: center;
+   align-items: center;
 }
-.container-sec3 {
-  display: flex;
-  transform: translateX(-50px);
-  gap: 2rem;
 
-} 
+.container-sec3 {
+   display: flex;
+   transform: translateX(-50px);
+   gap: 2rem;
+}
 
 .container-sec3 img {
    width: 300px;
    text-align: center;
 }
+
 .box {
    text-align: center;
    background-color: #d5d5d55d;
@@ -194,18 +179,6 @@ header a:hover {
    border-radius: 10px;
    box-shadow: #444 10px 10px 20px;
 }
-
-
-
-
-
-
-/*-----------------------------------------------------------------------------------------------*/
-
-
-
-
-
 
 footer {
    background-color: rgb(58, 92, 246);
@@ -255,59 +228,60 @@ footer {
    text-align: center;
 }
 
+/* Media Queries */
 @media (max-width: 999px) {
    .section2 {
-       padding: 3rem 5%; /* Ajusta o padding para uma distribuição melhor dos elementos */
+       padding: 3rem 5%;
    }
 
    .box-sec1 {
-       width: 100%; /* As caixas vão ocupar 100% da largura da tela */
-       padding: 1.5rem; /* Diminui o padding para um layout mais compacto */
-       flex-direction: column; /* Faz as imagens e o texto ficarem empilhados em vez de lado a lado */
-       gap: 20px; /* Espaçamento entre imagem e texto */
+       width: 100%;
+       padding: 1.5rem;
+       flex-direction: column;
+       gap: 20px;
    }
 
    .box-sec1 img {
-       width: 90%; /* Aumenta o tamanho da imagem para 90% da caixa */
-       max-width: 450px; /* Define um tamanho máximo para a imagem */
-       height: auto; /* Mantém a proporção */
-       margin: 0 auto; /* Centraliza a imagem dentro da caixa */
+       width: 90%;
+       max-width: 450px;
+       height: auto;
+       margin: 0 auto;
    }
 
    .box-sec1 h3 {
-       font-size: 1.5rem; /* Ajusta o tamanho do título para telas menores */
-       text-align: center; /* Alinha o título ao centro */
-       margin: 10px 0; /* Diminui a margem ao redor do título */
+       font-size: 1.5rem;
+       text-align: center;
+       margin: 10px 0;
    }
 
    .section2 h3 {
-       font-size: 2rem; /* Ajusta o título da seção */
-       text-align: center; /* Garante que o título da seção fique centralizado */
+       font-size: 2rem;
+       text-align: center;
    }
 
    .section2 p {
-       font-size: 1.3rem; /* Ajuste do tamanho do parágrafo */
+       font-size: 1.3rem;
        margin: 20px 0;
        font-weight: 300;
-       text-align: center; /* Alinha o texto ao centro */
+       text-align: center;
    }
 
    .section2 a {
-       font-size: 1rem; /* Ajusta o tamanho do link */
+       font-size: 1rem;
        margin: 15px 0;
-       display: block; /* Faz o link ocupar a linha inteira */
-       text-align: center; /* Centraliza o link */
+       display: block;
+       text-align: center;
    }
 }
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
    .menuPC {
-      display: none;
-  }
-  
+       display: none;
+   }
+
    header ul {
-       flex-direction: column; /* Deixando itens centralizados na tela */
-       align-items: center; 
+       flex-direction: column;
+       align-items: center;
        gap: 10px;
    }
 
@@ -316,12 +290,12 @@ footer {
    }
 
    .box-sec1 {
-       flex-direction: column; /* Deixando itens centralizados na tela */
+       flex-direction: column;
        gap: 20px;
    }
 
    .footer-container {
-       flex-direction: column; /* Deixando itens centralizados na tela */
+       flex-direction: column;
        align-items: center;
    }
 
@@ -354,7 +328,7 @@ footer {
        padding: 25vh 3rem;
    }
 
-   .header ul {
+   header ul {
        display: block;
    }
 
@@ -387,41 +361,42 @@ footer {
 
 @media (max-width: 428px) {
    .section2 {
-       padding: 3rem 2%; /* Reduz o padding para otimizar o uso da tela */
+       padding: 3rem 2%;
    }
 
    .box-sec1 {
-       flex-direction: column; /* Empilha os elementos verticalmente */
-       gap: 10px; /* Reduz o espaçamento entre os elementos */
+       flex-direction: column;
+       gap: 10px;
    }
 
    .box-sec1 img {
-       width: 80%; /* Ajusta a imagem para ocupar 80% da largura disponível */
-       max-width: 250px; /* Limita o tamanho das imagens */
+       width: 80%;
+       max-width: 250px;
    }
 
    .box-sec1 h3 {
-       font-size: 1.2rem; /* Tamanho do título ajustado */
-       text-align: center; /* Centraliza o texto */
+       font-size: 1.2rem;
+       text-align: center;
    }
 
    .section2 h3 {
-       font-size: 1.5rem; /* Ajuste do título para a tela pequena */
+       font-size: 1.5rem;
    }
 
    .section2 p {
-       font-size: 1.1rem; /* Ajusta o tamanho da fonte do parágrafo */
+       font-size: 1.1rem;
        margin: 10px;
        font-weight: 300;
-       text-align: center; /* Centraliza o texto */
+       text-align: center;
    }
 
    .section2 a {
-       font-size: 1rem; /* Ajusta o tamanho do link */
+       font-size: 1rem;
        margin: 15px;
-       text-align: center; /* Centraliza o link */
+       text-align: center;
    }
 }
+<<<<<<< HEAD
 
 header {
    display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
@@ -540,3 +515,5 @@ header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alter
 .flex { /*ELEMENTO USADO NO JS*/
  display: flex; /*Tornando item flexível e visível.*/
 }
+=======
+>>>>>>> a3c70ed410fcbcf5e7275f3e4e9caa2aa92f1fd6
