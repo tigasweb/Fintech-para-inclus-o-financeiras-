@@ -255,16 +255,170 @@ footer {
    text-align: center;
 }
 
-/* Responsividade */
+@media (max-width: 999px) {
+   .section2 {
+       padding: 3rem 5%; /* Ajusta o padding para uma distribuição melhor dos elementos */
+   }
+
+   .box-sec1 {
+       width: 100%; /* As caixas vão ocupar 100% da largura da tela */
+       padding: 1.5rem; /* Diminui o padding para um layout mais compacto */
+       flex-direction: column; /* Faz as imagens e o texto ficarem empilhados em vez de lado a lado */
+       gap: 20px; /* Espaçamento entre imagem e texto */
+   }
+
+   .box-sec1 img {
+       width: 90%; /* Aumenta o tamanho da imagem para 90% da caixa */
+       max-width: 450px; /* Define um tamanho máximo para a imagem */
+       height: auto; /* Mantém a proporção */
+       margin: 0 auto; /* Centraliza a imagem dentro da caixa */
+   }
+
+   .box-sec1 h3 {
+       font-size: 1.5rem; /* Ajusta o tamanho do título para telas menores */
+       text-align: center; /* Alinha o título ao centro */
+       margin: 10px 0; /* Diminui a margem ao redor do título */
+   }
+
+   .section2 h3 {
+       font-size: 2rem; /* Ajusta o título da seção */
+       text-align: center; /* Garante que o título da seção fique centralizado */
+   }
+
+   .section2 p {
+       font-size: 1.3rem; /* Ajuste do tamanho do parágrafo */
+       margin: 20px 0;
+       font-weight: 300;
+       text-align: center; /* Alinha o texto ao centro */
+   }
+
+   .section2 a {
+       font-size: 1rem; /* Ajusta o tamanho do link */
+       margin: 15px 0;
+       display: block; /* Faz o link ocupar a linha inteira */
+       text-align: center; /* Centraliza o link */
+   }
+}
 @media (max-width: 768px) {
 
-   .footer-container {
-      flex-direction: column;
-      align-items: center;
-     }
-     
-     .footer-section {
-        max-width: 300px;
-        text-align: center;
-     }
+   .menuPC {
+      display: none;
   }
+  
+   header ul {
+       flex-direction: column; /* Deixando itens centralizados na tela */
+       align-items: center; 
+       gap: 10px;
+   }
+
+   .section1 {
+       padding: 20vh 10rem;
+   }
+
+   .box-sec1 {
+       flex-direction: column; /* Deixando itens centralizados na tela */
+       gap: 20px;
+   }
+
+   .footer-container {
+       flex-direction: column; /* Deixando itens centralizados na tela */
+       align-items: center;
+   }
+
+   .footer-section {
+       text-align: center;
+       max-width: 100%;
+   }
+
+   .container-sec3 {
+       flex-direction: column;
+       gap: 2rem;
+       transform: none;
+   }
+
+   .container-sec3 img {
+       width: 80%;
+   }
+
+   .box {
+       width: 100%;
+   }
+}
+
+@media (max-width: 620px) {
+   .menuPC {
+       display: none;
+   }
+
+   .section1 {
+       padding: 25vh 3rem;
+   }
+
+   .header ul {
+       display: block;
+   }
+
+   .footer-container {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .footer-section {
+       max-width: 90%;
+       text-align: center;
+   }
+
+   .container-sec3 img {
+       width: 100%;
+   }
+
+   .box-sec1 {
+       gap: 10px;
+   }
+
+   .box-sec1 img {
+       width: 100%;
+   }
+
+   .box-sec1 h3 {
+       font-size: 1.5em;
+   }
+}
+
+@media (max-width: 428px) {
+   .section2 {
+       padding: 3rem 2%; /* Reduz o padding para otimizar o uso da tela */
+   }
+
+   .box-sec1 {
+       flex-direction: column; /* Empilha os elementos verticalmente */
+       gap: 10px; /* Reduz o espaçamento entre os elementos */
+   }
+
+   .box-sec1 img {
+       width: 80%; /* Ajusta a imagem para ocupar 80% da largura disponível */
+       max-width: 250px; /* Limita o tamanho das imagens */
+   }
+
+   .box-sec1 h3 {
+       font-size: 1.2rem; /* Tamanho do título ajustado */
+       text-align: center; /* Centraliza o texto */
+   }
+
+   .section2 h3 {
+       font-size: 1.5rem; /* Ajuste do título para a tela pequena */
+   }
+
+   .section2 p {
+       font-size: 1.1rem; /* Ajusta o tamanho da fonte do parágrafo */
+       margin: 10px;
+       font-weight: 300;
+       text-align: center; /* Centraliza o texto */
+   }
+
+   .section2 a {
+       font-size: 1rem; /* Ajusta o tamanho do link */
+       margin: 15px;
+       text-align: center; /* Centraliza o link */
+   }
+}
